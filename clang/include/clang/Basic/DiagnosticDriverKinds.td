@@ -8,7 +8,7 @@
 
 let Component = "Driver" in {
 
-def err_drv_no_such_file : Error<"no such file or directory: '%0'">;
+def err_drv_no_such_file : Note<"no such file or directory: '%0'">;
 def err_drv_no_such_file_with_suggestion : Error<
   "no such file or directory: '%0'; did you mean '%1'?">;
 def err_drv_unsupported_opt : Error<"unsupported option '%0'">;
